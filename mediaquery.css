@@ -1,0 +1,33 @@
+@media(max-width: 768px) {
+    .ff-container {
+        justify-content: space-around;
+    }
+
+    .container {
+        width: 45%;
+    }
+}
+
+@media(max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media(max-width: 400px) {
+    .navbar a {
+        padding: 7px 10px;
+    }
+    .container {
+        width: 30%;
+    }
+
+    .logo-brand {
+        height: 40px;
+        width: 40px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+}

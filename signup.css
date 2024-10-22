@@ -1,0 +1,122 @@
+body {
+    background-color: #848379;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 97vh;
+    width: 99%;
+
+    background-image: url('background design.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    margin: 10px;
+    padding: 0;
+}    
+
+.container1 {
+    height: 600px;
+    width: 600px;
+
+    background-image: url('BluePolygon.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: table-column;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+
+    padding: 0;
+    margin-top: 40px;
+
+    border: 4px blueviolet solid;
+    border-radius: 100%;
+}
+
+.center1 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+}
+
+.input-text {
+    height: 260px;
+    width: 93%;
+
+    margin: 10px;
+
+    justify-content: center;
+}
+
+.gradient-border-input {
+    position: relative;
+    
+}
+
+.gradient-border-input input {
+    padding: 10px;
+    border: 2px solid transparent; 
+    border-radius: 5px;
+    background: linear-gradient(white, white) padding-box, 
+                linear-gradient(to right, red, yellow, blue) border-box; 
+    outline: none;
+}
+
+.gradient-border-input input:focus {
+    border-color: transparent; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-txt {
+    height: 34px;
+    width: 260px;
+    border-radius: 10px;
+
+    padding: 5px; 
+    margin: 10px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: aqua;
+    color: #303132;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p, a {
+    text-align: center;
+    color: black;
+
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+a:hover {
+    color: #31f03b;
+}
